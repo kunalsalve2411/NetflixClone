@@ -1,2 +1,2 @@
 # NetflixClone
-Related front-End design and avaScript search method. 
+Related front-End design and JavaScript search method. 
