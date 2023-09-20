@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* parent of logo */
+.logo{
+    width: 20%;
+    height: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* child of logo */
+.logo-img{
+ height: 80px;       
+}
+/* parent of Search */
+.search{
+    width: 30%;
+    height: 70px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* child of Search */
+.search-bar{
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    column-gap: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.search-box{
+    width: 80%;
+    height: 40px;
+    font-size: 18px;
+    text-indent: 20px;   /* we can use Padding  */
+    border: none; /* for border none*/
+    outline: none;
+}
+.search-icon{
+height: 20px;
+}
+
+
+
+/* Movies section */
+.movies{
+    width: 100%;
+    padding: 50px 5px;
+    background-color: lightgrey;
+    padding-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5%;
+    row-gap: 20px;
+}
+/* child of movies class */
+.movie{
+    width: 20%;
+    height: 450px;
+    /* background-color: red; */
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0;
+    transition: .3s;
+    cursor: pointer;
+}
+.overlay:hover{
+    opacity: 1;
+}
+
+.video{
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+}
+.details{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue; */
+    color: white;
+    /* font-family: 'Poppins' sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.poster{
+    width: 100%;
+}
